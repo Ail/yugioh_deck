@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<link rel="stylesheet" media="all" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+	<div class="row content">
+	    <div class="col-sm-3 sidenav">
+
+	    	<div class="card" style="margin:2px;text-align: center;">
+			    <select style="margin:2px;text-align: center;border: none;">
+			    	<option value="all">Choose type</option>
+			    	<option value="monster">Monster</option>
+			    	<option value="spell">Spell</option>
+			    	<option value="trap">Trap</option>
+			    </select>
+			</div>
+
+	    	<button href="" onclick="loadcard('Burial from a Different Dimension');"><div class="card">
+			    <p style="margin-top: 1rem;">Burial from a Different Dimension</p>
+			    <small>spell</small>
+			</div></button>
+
+			<button href="" onclick="loadcard('Charge of the Light Brigade');"><div class="card">
+			    <p style="margin-top: 1rem;">Charge of the Light Brigade</p>
+			    <small>spell</small>
+			</div></button>
+
+			<button href="" onclick="loadcard('Infernoid Antra');"><div class="card">
+			    <p style="margin-top: 1rem;">Infernoid Antra</p>
+			    <small>monster</small>
+			</div></button>
+
+			<button href="" onclick="loadcard('Infernoid Attondel');"><div class="card">
+			    <p style="margin-top: 1rem;">Infernoid Attondel</p>
+			    <small>monster</small>
+			</div></button>
+
+			<button href="" onclick="loadcard('Infernoid Decatron');"><div class="card">
+			    <p style="margin-top: 1rem;">Infernoid Decatron</p>
+			    <small>monster</small>
+			</div></button>
+
+			<button href="" onclick="loadcard('Infernoid Devyaty');"><div class="card">
+			    <p style="margin-top: 1rem;">Infernoid Devyaty</p>
+			    <small>monster</small>
+			</div></button>
+
+			<button href="" onclick="loadcard('Infernoid Harmadik');"><div class="card">
+			    <p style="margin-top: 1rem;">Infernoid Harmadik</p>
+			    <small>monster</small>
+			</div></button>
+
+			<button href="" onclick="loadcard('Infernoid Onuncu');"><div class="card">
+			    <p style="margin-top: 1rem;">Infernoid Onuncu</p>
+			    <small>monster</small>
+			</div></button>
+
+			<button href="" onclick="loadcard('Infernoid Patrulea');"><div class="card">
+			    <p style="margin-top: 1rem;">Infernoid Patrulea</p>
+			    <small>monster</small>
+			</div></button>
+
+			<button href="" onclick="loadcard('Infernoid Pirmais');"><div class="card">
+			    <p style="margin-top: 1rem;">Infernoid Pirmais</p>
+			    <small>monster</small>
+			</div></button>
+
+			<button href="" onclick="loadcard('Infernoid Seitsemas');"><div class="card">
+			    <p style="margin-top: 1rem;">Infernoid Seitsemas</p>
+			    <small>monster</small>
+			</div></button>
+
+			<button href="" onclick="loadcard('Lyla, Lightsworn Sorceress');"><div class="card">
+			    <p style="margin-top: 1rem;">Lyla, Lightsworn Sorceress</p>
+			    <small>monster</small>
+			</div></button>
+
+			<button href="" onclick="loadcard('Monster Gate');"><div class="card">
+			    <p style="margin-top: 1rem;">Monster Gate</p>
+			    <small>spell</small>
+			</div></button>
+
+			<button href="" onclick="loadcard('One for One');"><div class="card">
+			    <p style="margin-top: 1rem;">One for One</p>
+			    <small>spell</small>
+			</div></button>
+
+			<button href="" onclick="loadcard('Raiden, Hand of the Lightsworn');"><div class="card">
+			    <p style="margin-top: 1rem;">Raiden, Hand of the Lightsworn</p>
+			    <small>monster</small>
+			</div></button>
+
+			<button href="" onclick="loadcard('Reasoning');"><div class="card">
+			    <p style="margin-top: 1rem;">Reasoning</p>
+			    <small>spell</small>
+			</div></button>
+
+			<button href="" onclick="loadcard('Time-Space Trap Hole');"><div class="card">
+			    <p style="margin-top: 1rem;">Time-Space Trap Hole</p>
+			    <small>trap</small>
+			</div></button>
+
+			<button href="" onclick="loadcard('Torrential Tribute');"><div class="card">
+			    <p style="margin-top: 1rem;">Torrential Tribute</p>
+			    <small>trap</small>
+			</div></button>
+
+			<button href="" onclick="loadcard('Upstart Goblin');"><div class="card">
+			    <p style="margin-top: 1rem;">Upstart Goblin</p>
+			    <small>spell</small>
+			</div></button>
+
+			<button href="" onclick="loadcard('Void Seer');"><div class="card">
+			    <p style="margin-top: 1rem;">Void Seer</p>
+			    <small>spell</small>
+			</div></button>
+	    </div>
+	    <div class="col-sm-9">
+	    	<div class="row">
+		    	<div class="col-sm-5" id="photo">
+
+		    	</div>
+		    	<div class="col-sm-7" id="main">
+		    		
+		    	</div>
+	    	</div>
+	    </div>
+	</div>
+</div>
+</body>
+</html>
